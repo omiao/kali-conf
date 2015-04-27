@@ -32,7 +32,7 @@
 	1). m{mark}标记， `{mark}跳转，:marks显示所有标记
 	2). <leader> hl 高亮, <leader>hr 高亮regex 
 
-python-mode:
+6. python-mode:
 	1). Run python code (`<leader>r`)
 	2). Add/remove breakpoints (`<leader>b`)
 	3). [[: previous class/function. ]]: next class/function
