@@ -1,0 +1,13 @@
+tmux new -t groupedsession -s mysession
+tmux new -s editor -d vim
+把面板变为窗口: PREFIX !
+
+加载.tmux.conf: Prefix r
+
+水平垂直切割：Prefix | Prefix -
+
+Pane切换:Prefix h Prefix l Prefix j  Prefix k
+
+窗口切换：Prefix C-l Prefix C-h
+
+改变Pane大小：Prefix H Prefix J Prefix K Prefix L
