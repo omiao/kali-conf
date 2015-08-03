@@ -1,0 +1,46 @@
+1. ctags:
+	1). 支持的语言: ctags --list-languages
+	2). 语言对应的文件: ctags --list-maps
+	3). 增加语言扩展名: ctags --langmap=c++:+.inl
+	4). ctags -R --c++-kinds=+px (c++中的声名) --fields=+iaS（面向对象标记） --extra=+q（成员标记） --langmap=c++:+.inl --langmap=c++:+.cfg --langmap=c++:+txt --langmap=c++:+sym -L cscope.files 
+	5). 跳转定义: ctrl-] 返回: ctrl-t /ctrl-o
+
+2. cscope:
+	1). 直接跳转: ctrl + \ 
+	2). 上下分屏: ctrl + @
+	3). 左右分屏: ctrl + @ ctrl + @
+	4). 's' 查找符号 'c' 调用函数 't' 查找字符串 'e' egrep模式 'f' 查找文件 'g' 查找定义
+
+3. 注释nerdcommenter:
+	1). <leader>cc/<leader>cn: //	
+
+	2). <leader>cm: /**/
+
+	3). <leader>cs: /*
+					*
+					*/
+	4). <leader>cu: Uncomments the selected line(s).
+	5). <leader>ci: Uncomments or comments the selected line(s).
+
+4. 自动符号补全Auto-Pairs/vim-surrounding: 
+	1). 符号<C-w>: 自动用符号包围文字，继续<C-w>扩大包围的文字
+	2). yss符号: add a surrounding to the whole line
+	3). cs'": change surrounding from ' to "
+	4). ds<q>: delete surrounding <q></q>
+
+5. 标记高亮mark.vim, 
+	1). m{mark}标记， `{mark}跳转，:marks显示所有标记
+	2). <leader> hl 高亮, <leader>hr 高亮regex 
+
+6. python-mode:
+	1). Run python code (`<leader>r`)
+	2). Add/remove breakpoints (`<leader>b`)
+	3). [[: previous class/function. ]]: next class/function
+	4). Search in python documentation: K
+<<<<<<< HEAD
+
+7.UltiSnips:
+	C-l: complete the snip
+=======
+7.
+>>>>>>> kali-conf/master
