@@ -37,3 +37,4 @@
 	2). Add/remove breakpoints (`<leader>b`)
 	3). [[: previous class/function. ]]: next class/function
 	4). Search in python documentation: K
+7.
