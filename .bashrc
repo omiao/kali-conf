@@ -110,8 +110,6 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=/root/Downloads/android-studio/sdk/platform-tools:$PATH
-
-TERM=xterm-256color 
 tmux_init()
 {
 	tmux new-session -n "ssh" -d   # 开启一个会话
