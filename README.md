@@ -7,7 +7,7 @@ Installation
 1. vim part:
 	1) vim
 If Bundle not automatically installed, run:
-	2). git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
+	2). git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/vundle
 
 	3). run: bundleInstall in vim
 	4). Install YouCompleteMe:
