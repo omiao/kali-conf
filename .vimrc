@@ -53,7 +53,7 @@ set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 let mapleader = "," 
 
 if !isdirectory(expand("~/.vim/bundle/vundle/.git"))
-	!git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
+	!git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/vundle
 endif
 
 " FOR Linux Bundles
