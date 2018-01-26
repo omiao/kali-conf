@@ -220,7 +220,7 @@ nnoremap <Leader>fz :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
 "##############################################################
 "# Ultisnips Settings
 "##############################################################
-let g:UltiSnipsUsePythonVersion = 2
+let g:UltiSnipsUsePythonVersion = 3
 
 let g:UltiSnipsSnippetsDir = '~/.vim/bundle/vim-snippets/UltiSnips'
 " let g:UltiSnipsSnippetDirectories =['UltiSnips']
