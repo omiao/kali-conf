@@ -70,8 +70,8 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 " Ctrl-P: to search files
 Bundle 'kien/ctrlp.vim'						
-Bundle 'jasoncodes/ctrlp-modified.vim'
-Bundle 'tacahiroy/ctrlp-funky'
+"Bundle 'jasoncodes/ctrlp-modified.vim'
+"Bundle 'tacahiroy/ctrlp-funky'
 " Work with ctrl-P, ctags to search tag
 Bundle 'L9'
 Bundle 'FuzzyFinder'
@@ -115,10 +115,10 @@ Bundle 'mbriggs/mark.vim'
 "# Web Development
 "##############################################################
 " For PHP plugins
-Bundle 'joonty/vim-phpunitqf'
-Bundle 'alvan/vim-php-manual'
-Bundle 'joonty/vdebug.git'
-Bundle 'nishigori/vim-php-dictionary'
+"Bundle 'joonty/vim-phpunitqf'
+"Bundle 'alvan/vim-php-manual'
+"Bundle 'joonty/vdebug.git'
+"Bundle 'nishigori/vim-php-dictionary'
 
 "press SHIFT-k to view the Explanation of the keyword under the cursor
 "press CTRL-ALT-k to see the online manual of the keyword under the cursor
@@ -421,11 +421,11 @@ autocmd FileType html,css EmmetInstall
 "##############################################################
 "# PHP setting
 "##############################################################
-au FileType php call AddPHPFuncList()
-function AddPHPFuncList()
-	set dictionary-=~/.vim/bundle/vim-php-dictionary/dict/PHP.dict dictionary+=~/.vim/bundle/vim-php-dictionary/dict/PHP.dict
-	set complete-=k complete+=k
-endfunction
+"au FileType php call AddPHPFuncList()
+"function AddPHPFuncList()
+"	set dictionary-=~/.vim/bundle/vim-php-dictionary/dict/PHP.dict dictionary+=~/.vim/bundle/vim-php-dictionary/dict/PHP.dict
+"	set complete-=k complete+=k
+"endfunction
 
 "##############################################################
 "# Python setting
